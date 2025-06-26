@@ -1,8 +1,8 @@
 # tasks/pitch_tasks.py
 from crewai import Task
+
 from agents.pitch_analyst import pitch_analyst
 from agents.domain_advisor import domain_advisor
-
 from agents.rewriter import rewriter
 
 def get_tasks(pitch_text, domain):
