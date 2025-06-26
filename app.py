@@ -103,7 +103,7 @@ if submit:
                     )
 
                 # Send via email + WhatsApp
-                send_email("📄 Your Enhanced Pitch from PitchPal-AI", result, email, attachments=[pdf_path])
+                send_email("📄 Your Enhanced Pitch from PitchPal-AI developed by Patel", result, email, attachments=[pdf_path])
                 send_whatsapp_with_pdf("📢 Your enhanced pitch deck is ready!",pdf_path)
                 st.success(f"📬 Pitch deck sent to {email} and your WhatsApp!")
 
