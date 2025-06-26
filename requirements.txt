@@ -1,0 +1,33 @@
+
+
+# flask
+fpdf
+# python-dotenv
+# twilio
+langchain
+
+langchain-community
+# faiss-cpu
+
+cloudinary
+
+
+# requirements.txt
+streamlit
+crewai
+langchain
+groq
+ollama
+reportlab
+python-dotenv
+smtplib
+twilio
+pdfminer.six
+python-pptx
+
+crewai==0.26.10
+crewai-tools==0.1.31
+langchain-anthropic
+anthropic
+# requirements.txt
+git+https://github.com/joaomdmoura/crewai-tools.git
